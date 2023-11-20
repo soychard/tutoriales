@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!--
+        Autor: SoyChard
+        Email: baconmonkey.io@email.com
+        twitch : https://www.twitch.tv/soychard
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoyChard</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        *{
+            font-family: 'Roboto';
+        }
+
+        .bm-listtile{
+        /* border: 1px solid rgb(224, 224, 224); */
+        border-radius: 8px;
+        display: flex;
+        justify-content: start;
+        width: fit-content;
+        /* padding: 10px; */
+        box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+        overflow: hidden;
+        }
+
+
+        .listtile-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0px 10px;
+        }
+        .bm-listtile-leading{
+            /* border: 1px solid black; */
+            min-width: 50px;
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-right: 10px; */
+            padding: 5px;
+            background: linear-gradient(40deg,rgb(236, 236, 236),rgb(255, 179, 179));
+        }
+
+        .bm-listtile-trailing{
+            /* border: 1px solid black; */
+            min-width: 50px;
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-left: 5px; */
+            padding: 5px;
+        }
+
+        .listtile-title{
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+        .listtile-subtitle{
+            font-weight: lighter;
+            color: #777777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div style="width: fit-content;">
+        <div class="bm-listtile">
+            <!-- leading -->
+            <div class="bm-listtile-leading">
+                <img src="https://img.icons8.com/?size=256&id=IEZX9TKeHWtn&format=png" 
+                    alt="" srcset="" style="width: 40px;">
+            </div>
+            <!-- text/subtitle -->
+            <div class="listtile-content">
+                <div class="listtile-title">Labrador</div>
+                <div class="listtile-subtitle">Demasiado amigable</div>
+            </div>
+            <!-- trailing -->
+            <div class="bm-listtile-trailing">
+                <i class="fa fa-paw fa-2x" style="color: gray;"></i>
+            </div>
+        
+        </div>
+        
+    </div>
+</body>
+</html>
